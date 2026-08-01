@@ -1,0 +1,113 @@
+.floating-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-cell{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #222;
+}
+
+.grid-cell:nth-child(3n+2)::before,
+.grid-cell:nth-child(3n+3)::before{
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: 8px;
+    bottom: 8px;
+    width: 4px;
+    background: #68d372;
+    clip-path: polygon(
+        50% 0%,
+        100% 8%,
+        100% 92%,
+        50% 100%,
+        0% 92%,
+        0% 8%
+    );
+    z-index: 10;
+}
+
+.grid-cell:nth-child(n+4)::after{
+    content: "";
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    top: -2px;
+    height: 4px;
+    background: #68d372;
+    clip-path: polygon(
+        0% 50%,
+        8% 0%,
+        92% 0%,
+        100% 50%,
+        92% 100%,
+        8% 100%
+    );
+    z-index: 10;
+}
+
+.floating-photo{
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    animation: blink 2s linear;
+}
+
+.floating-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+
+    20%{
+        opacity: 1;
+    }
+
+    80%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+@media (max-width:768px){
+
+    .grid-cell:nth-child(3n+2)::before,
+    .grid-cell:nth-child(3n+3)::before{
+        width: 3px;
+    }
+
+    .grid-cell:nth-child(n+4)::after{
+        height: 3px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .grid-cell:nth-child(3n+2)::before,
+    .grid-cell:nth-child(3n+3)::before{
+        width: 2px;
+    }
+
+    .grid-cell:nth-child(n+4)::after{
+        height: 2px;
+    }
+
+}
