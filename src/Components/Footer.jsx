@@ -1,49 +1,55 @@
-import { Link } from 'react-router-dom'
-import {FaEnvelope,FaInstagram,FaLinkedin,FaGithub,} from "react-icons/fa";
+import React from "react";
+import {FaEnvelope, FaInstagram, FaLinkedin, FaGithub,FaPaperPlane} from "react-icons/fa";
 
 function Footer() {
+
   return (
     <>
-    <div className='footer'>
+      <footer className="footer">
+        <div className="quick-links">
+          <h3>Quick Links</h3>
 
-    <div className="quick-links">
-      <h3>Quick Links</h3>
-        <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/project">Project</Link></li>
-            <li><Link to="/skills">Skills</Link></li>
-        </ul>
-    </div> 
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </div>
 
-    <div className="support">
-      <h3>Support</h3>
-        <ul>
-            <li><Link to="/privacypolicy">Privacy Policy</Link></li>
-            <li><Link to="/terms-and-conditions">Terms and Conditions</Link></li>
-        </ul>
-    </div>
+        <div className="support">
+          <h3>Support</h3>
+          <ul>
+            <li><button className="footer-link-btn">Privacy Policy</button></li>
+            <li><button className="footer-link-btn">Terms & Conditions</button></li>
+          </ul>
+        </div>
 
-    <div className="get-in-touch">
-      <h3>Get In Touch</h3>
-        <ul>
-            <li><a href="mailto:ak144336@gmail.com"><FaEnvelope />  Gmail</a></li>
-            <li><a href="https://www.instagram.com/i_am_akxy/"><FaInstagram />  Instagram</a></li>
-            <li><a href="https://www.linkedin.com/in/akshay-kumar-4396a8361/"><FaLinkedin/>  LinkedIn</a></li>
-            <li><a href="https://github.com/AKXY006"><FaGithub/>  GitHub</a></li>
-        </ul>
-    </div>
-    </div>
+        <div className="get-in-touch">
+          <h3>Get In Touch</h3>
+          <ul>
+            <li><a href="mailto:ak144336@gmail.com"><FaEnvelope /><span>Email</span></a></li>
+            <li><a href="https://www.instagram.com/i_am_akxy/" target="_blank" rel="noopener noreferrer"><FaInstagram /><span>Instagram</span></a></li>
+            <li><a href="https://www.linkedin.com/in/akshay-kumar-4396a8361/" target="_blank" rel="noopener noreferrer"><FaLinkedin /><span>LinkedIn</span></a></li>
+            <li><a href="https://github.com/AKXY006" target="_blank" rel="noopener noreferrer"><FaGithub /><span>GitHub</span></a></li>
+          </ul>
+        </div>
 
-    <div className="copyright">
-        <p>
-          Copyright © 2026-2036 | All Rights Reserved.
-          <span> Made by Akshay Kumar</span>
-        </p>
+            <div className="contact-form">
+               <h3>Contact Me</h3>
+                 <form><input type="text" placeholder="Your Name" required />
+                 <input type="email" placeholder="Your Email" required />
+                 <textarea rows="4" placeholder="Your Message" required></textarea>
+                 <button type="submit" className="send-btn"><FaPaperPlane /> Send</button>
+                 </form>
+            </div>
+      </footer>
+
+      <div className="copyright">
+        <p>© 2026 <span>Akshay Kumar</span>. All Rights Reserved.</p>
       </div>
-      </>
-    
-  )
+    </>
+  );
 }
 
-export default Footer
+export default Footer;
