@@ -43,7 +43,8 @@
 
 .photos{
     flex: 1;
-    height: 550px;
+    width: 100%;
+    min-height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +68,7 @@
     }
 
     .photos{
-        height: 500px;
+        min-height: 500px;
     }
 
 }
@@ -77,6 +78,7 @@
     .about{
         flex-direction: column;
         text-align: center;
+        justify-content: center;
         gap: 45px;
         padding: 70px 30px;
     }
@@ -95,7 +97,8 @@
 
     .photos{
         width: 100%;
-        height: 450px;
+        min-height: 450px;
+        flex: none;
     }
 
 }
@@ -117,7 +120,9 @@
     }
 
     .photos{
-        height: 330px;
+        width: 100%;
+        min-height: 330px;
+        flex: none;
     }
 
 }

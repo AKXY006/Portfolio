@@ -37,7 +37,7 @@ function FloatingPhoto() {
 
     const interval=setInterval(()=>{
       generateGrid();
-    },2000);
+    },4000);
 
     return ()=>clearInterval(interval);
 
