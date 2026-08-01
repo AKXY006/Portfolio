@@ -6,6 +6,7 @@ function Footer() {
 
   return (
     <>
+    <div id="contact">
       <footer className="footer">
         <div className="quick-links">
           <h3>Quick Links</h3>
@@ -48,6 +49,7 @@ function Footer() {
 
       <div className="copyright">
         <p>© 2026 <span>Akshay Kumar</span>. All Rights Reserved.</p>
+      </div>
       </div>
     </>
   );
