@@ -18,7 +18,7 @@ const projectDetails = [
     uses: "Java, Spring Boot, Hibernate, Oracle SQL",
     info: "A backend banking application that performs CRUD operations using Spring Boot, Hibernate, and Oracle SQL.",
     githubUrl: "https://github.com/AKXY006/Bank-Management-System",
-    deployUrl: ""
+    deployUrl: "https://railway.com/project/a4ccd4ac-a59b-4cf1-b618-7627d971f94b/service/4f4cd567-1f4d-4088-a83f-623385e52a1c"
   },
   {
     type: "Project",
@@ -27,7 +27,7 @@ const projectDetails = [
     uses: "React, HTML, CSS, JavaScript",
     info: "A responsive portfolio website to showcase my skills and projects.",
     githubUrl: "https://github.com/AKXY006/Protfolio-React",
-    deployUrl: ""
+    deployUrl: "https://protfolio-react-delta.vercel.app/"
   },
   {
     type: "Project",
@@ -45,7 +45,7 @@ const projectDetails = [
   uses: "HTML, CSS, JavaScript",
   info: "A background color generator that creates random colors and allows users to copy color codes instantly.",
   githubUrl: "https://github.com/AKXY006/JavaScript-Learn/tree/main/07_Project/01_project",
-  deployUrl: ""
+  deployUrl: "https://java-script-learn-pacm1dp5m-akshay-kumar-s-projects-6ee2a902.vercel.app/"
   },
   {
     type: "Project",
@@ -63,7 +63,7 @@ const projectDetails = [
     uses: "HTML, CSS, JavaScript",
     info: "A responsive BMI calculator that calculates Body Mass Index based on user input.",
     githubUrl: "https://github.com/AKXY006/JavaScript-Learn/tree/main/07_Project/02_Project",
-    deployUrl: ""
+    deployUrl: "https://java-script-learn-elgx-mbau6x3w3.vercel.app/"
   },
   {
     type: "Project",
@@ -72,7 +72,7 @@ const projectDetails = [
     uses: "HTML, CSS, JavaScript",
     info: "A fun number guessing game with random number generation and score tracking.",
     githubUrl: "https://github.com/AKXY006/JavaScript-Learn/tree/main/07_Project/04_Project",
-    deployUrl: ""
+    deployUrl: "https://java-script-learn-r4nd-6vot8pwkb.vercel.app/"
   },
   {
     type: "Project",
@@ -81,7 +81,7 @@ const projectDetails = [
     uses: "HTML, CSS, JavaScript",
     info: "A two-player Tic Tac Toe game with winner detection and restart functionality.",
     githubUrl: "https://github.com/AKXY006/tik-tak-toe",
-    deployUrl: ""
+    deployUrl: "https://tik-tak-toe-plum-mu.vercel.app/"
   },
   {
     type: "Vibe Coding",
@@ -99,7 +99,7 @@ const projectDetails = [
     uses: "HTML, CSS, JavaScript",
     info: "A classic Snake game built during vibe coding sessions.",
     githubUrl: "https://github.com/AKXY006/Vibe-Coding/tree/main/Snake%20Game",
-    deployUrl: ""
+    deployUrl: "https://vibe-coding-2x5h.vercel.app/"
   },
   {
     type: "Vibe Coding",
@@ -108,7 +108,7 @@ const projectDetails = [
     uses: "HTML, CSS, JavaScript",
     info: "A Mario-inspired platform game created during vibe coding sessions.",
     githubUrl: "https://github.com/AKXY006/Vibe-Coding/tree/main/Mario",
-    deployUrl: ""
+    deployUrl: "https://vibe-coding-te8m-hsdpbog5a-akshay-kumar-s-projects-6ee2a902.vercel.app/"
   }
 ];
 
