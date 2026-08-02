@@ -1,4 +1,4 @@
-import bank from "../assets/images/bank.png";
+import bank from "../assets/images/Bank.png";
 import bgcolor from "../assets/images/bgcolor.png"
 import BMICalculator from "../assets/images/BMICalculator.png";
 import bookmanagement from "../assets/images/bookmanagement.png";
