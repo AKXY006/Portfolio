@@ -3,7 +3,7 @@ import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
 import About from './Components/About'
 import Skills from './Components/Skills'
-import Service from './Components/service'
+import Services from './Components/services'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
     <Navbar />
     <About />
     <Skills />
-    <Service />
+    <Services />
     <Footer />
     </>
   )

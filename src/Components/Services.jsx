@@ -3,6 +3,8 @@ import './Css/service.css';
 
 function Service() {
   return (
+    
+    <div id="services">
    <section className='service'>
 
     <h2 className='title'>My Service</h2>
@@ -67,6 +69,9 @@ function Service() {
     </div>
 
    </section>
+
+   </div>
+
   );
 }
 
