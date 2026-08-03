@@ -27,7 +27,7 @@ const projectDetails = [
     uses: "React, HTML, CSS, JavaScript",
     info: "A responsive portfolio website to showcase my skills and projects.",
     githubUrl: "https://github.com/AKXY006/Protfolio-React",
-    deployUrl: "https://protfolio-react-delta.vercel.app/"
+    deployUrl: "https://portfolio-taupe-eight-iw28vequw0.vercel.app/"
   },
   {
     type: "Project",
